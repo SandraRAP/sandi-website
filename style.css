@@ -1,0 +1,280 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 30px;
+  background-color: #cfdada;
+  gap: 10px;
+}
+
+header {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 5px 5px;
+  margin-bottom: 25px;
+}
+
+h1 {
+  font-size: 320px;
+  text-align: right;
+}
+
+.nav-home {
+  text-align: center;
+  margin: 25px;
+  padding: 10px;
+  background-color: rgb(163, 160, 160);
+  border: 5px solid black;
+  border-radius: 20px;
+}
+
+.nav-home-element {
+  color: black;
+  font-size: 60px;
+  margin: 20px;
+  text-decoration: none;
+  font-style: italic;
+}
+
+.nav-actual-sidepage {
+  color: rgb(255, 255, 255);
+  font-size: 65px;
+  font-style: normal;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: bold;
+}
+.home-presentation {
+  width: calc(50% - 50px);
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.img-poster {
+  border: 2px solid black;
+  border-radius: 20px;
+  width: calc(100% - 4px);
+  vertical-align: middle;
+  text-align: center;
+}
+
+.img-result {
+  width: 30%;
+  text-align: center;
+  border-radius: 20px 20px 0px 0px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-size: 100px;
+  text-align: center;
+  font-style: italic;
+  color: rgb(58, 54, 54);
+}
+
+h3 {
+  font-size: 50px;
+  text-align: center;
+  font-style: italic;
+  color: rgb(58, 54, 54);
+}
+
+p {
+  font-size: 25px;
+  text-align: center;
+  color: rgb(47, 44, 44);
+}
+
+.content-box {
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 15px;
+  margin-top: 10px;
+  width: calc(100% - 34px);
+  text-align: center;
+}
+
+.home-detailing {
+  width: calc(50% - 50px);
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.color-box {
+  background-color: rgb(212, 212, 212);
+}
+
+img {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.separator {
+  margin-left: 20px;
+}
+
+.home-main-footer {
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.home-footer-form {
+  display: inline-block;
+  border: 2px solid black;
+  vertical-align: middle;
+  border-radius: 20px;
+  padding: 15px;
+  background-color: #ffffff;
+}
+
+.home-footer-contact-info {
+  display: inline-block;
+  width: auto;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 15px;
+  vertical-align: middle;
+  background-color: #ffffff;
+}
+
+label {
+  font-size: 25px;
+  color: rgb(47, 44, 44);
+}
+
+input {
+  border: 2px solid black;
+  border-radius: 20px;
+  width: calc(100% - 10px);
+  font-size: 25px;
+  padding: 5px;
+}
+
+select {
+  border: 2px solid black;
+  border-radius: 20px;
+  width: calc(100% - 10px);
+  font-size: 25px;
+  padding: 5px;
+}
+.form-element {
+  text-align: left;
+}
+
+.form-element-suscription {
+  text-align: left;
+}
+
+.label-suscription {
+  display: inline-block;
+  font-size: 20px;
+  font-style: italic;
+  vertical-align: middle;
+}
+.checkbox-suscription {
+  width: auto;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+button {
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 50%;
+  height: 50px;
+  font-size: 30px;
+  font-style: italic;
+  background-color: black;
+  color: #ffffff;
+}
+.margin-top {
+  margin-top: 15px;
+}
+
+ul {
+  margin: 20px;
+}
+
+li {
+  font-size: 25px;
+  text-align: left;
+  color: rgb(47, 44, 44);
+  margin-top: 15px;
+}
+main {
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 50px;
+  background-color: #ffffff;
+  text-align: center;
+}
+.main-list-number {
+  font-size: 120px;
+  text-align: center;
+}
+
+.main-list-element {
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.main-list-paragragh {
+  vertical-align: middle;
+}
+
+.main-subcontainer-list {
+  display: flex;
+}
+
+th {
+  font-size: 25px;
+  text-align: left;
+  color: rgb(47, 44, 44);
+  margin-top: 15px;
+}
+
+td {
+  font-size: 25px;
+  text-align: left;
+  color: rgb(47, 44, 44);
+  margin-top: 15px;
+  padding-left: 25px;
+}
+caption {
+  font-size: 25px;
+  text-align: center;
+  color: rgb(47, 44, 44);
+  margin-top: 15px;
+  border: 2px solid black;
+  font-weight: bold;
+}
+
+table {
+  border: 2px solid black;
+  text-align: center;
+  margin: auto;
+}
+
+ol {
+  margin: 40px;
+}
